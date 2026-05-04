@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: black;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.main-title {
+    font-size: 42px;
+}
+
+.spice {
+    color: red;
+}
+
+.intro {
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 700px;
+    margin: auto;
+}
+
+.desc {
+    font-weight: bold;
+}
+
+.home-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.home-images img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+table a {
+    font-weight: bold;
+    color: blue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: orange;
+}
